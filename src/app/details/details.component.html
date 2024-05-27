@@ -1,0 +1,12 @@
+<div class="container-fluid p-5 d-flex justify-content-center">
+    <div class="w-50 border shadow p-5 text-center">
+        <h3>{{stud.sname |uppercase}}</h3>
+        <h6>Age : {{stud.age}}</h6>
+        <h6>Phone : {{stud.phone}}</h6>
+        <h6>Email : {{stud.email}}</h6>
+        <h6>Class : {{stud.class}}</h6>
+        <h6>Fee : {{stud.fee |currency:"INR"}}</h6>
+    </div>
+    <h4>{{stud|json}}</h4>
+    <h4 class="m-4">{{dd|date:'dd-MM-YY'}}</h4>
+</div>
